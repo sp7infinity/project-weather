@@ -70,7 +70,8 @@ body {
 
 .min-max {
     font-size: 12pt;
-    font-weight: 600;    
+    font-weight: 600; 
+    margin: auto;
 }
 
 .error {
