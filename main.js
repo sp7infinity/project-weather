@@ -1,6 +1,3 @@
-// 9060c81002ddd912a4458b84d181dbdd
-// api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-
 const weatherApi = {
     key: "9060c81002ddd912a4458b84d181dbdd",
     baseUrl: "https://api.openweathermap.org/data/2.5/weather?"
@@ -36,9 +33,7 @@ function showWeatherReport(weather) {
         time++;
         }
         else
-        document.getElementById("error").style.display = "block";
-
-        // setTimeout(() => warmsg.remove(), 2500);
+        document.getElementById("error").style.display = "block";       
     }
 
     else{
